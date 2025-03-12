@@ -35,7 +35,7 @@ az login --service-principal --username APP_ID --password CLIENT_SECRET --tenant
 To log in with a certificate, use the following command:
 
 ```azurecli-interactive
-az login --service-principal --username APP_ID --certificate /path/to/cert.pem --tenant TENANT_ID
+az login --service-principal --username APP_ID -p /path/to/cert.pem --tenant TENANT_ID
 ```
 
 > [!IMPORTANT]
